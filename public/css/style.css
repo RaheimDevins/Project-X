@@ -1,0 +1,131 @@
+header, .sleep:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .no-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #1b89bc;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+  .no-button:hover {
+    color: #065b83;
+    text-decoration: underline;
+  }
+  
+  .dollar-amount {
+    color: #056605;
+    font-weight: bold;
+    margin-left: -5px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 10px 0;
+    height: 100px;
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 0 20px;
+    float: left;
+    color: white;
+}
+
+nav {
+    float: right;
+    padding-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.no-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.homepage-bg {
+    background-image: url('https://www.sleepcycle.com/wp-content/uploads/2021/11/track-sleep-1-1920x1270.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    position: relative; 
+}
+
+.homepage-bg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    z-index: 1; 
+}
+
+
+h2 {
+    color: #1b89bc; 
+    margin-bottom: 20px;
+    z-index: 2; 
+}
+
+p {
+    color: #333; 
+    z-index: 2; 
+}
+
+.btn-primary {
+    background-color: #1b89bc; 
+    z-index: 2; 
+}
+
+.btn-secondary {
+    background-color: #065b83;
+    color: #fff; 
+    z-index: 2; 
+}
